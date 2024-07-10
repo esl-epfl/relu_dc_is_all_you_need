@@ -12,7 +12,7 @@ The code has been tested on Python 3.10.8. For the experiments of Section V.B th
 
 |Module Name | Manuscript Sections |
 |------------|---------------------|
-| relu_approximation_and_example_networks.py | Section V.A |
+| [relu_approximation_and_example_networks.py](relu_approximation_and_example_networks.py) | Section V.A |
 | ppg_hr_conv_activations.py | Section V.B|
 | relu_vs_linear_vs_lineardc_train.py | Section V.C|
 | plot_relu_vs_linear_vs_lineardc_results.py | Section V.C|
