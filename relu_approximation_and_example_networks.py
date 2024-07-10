@@ -85,6 +85,10 @@ plt.plot(ans, '-o', linewidth = 2)
 
 y_approx = (g_approx * np.sqrt(A)/2 + y/2) / 0.0001
 
+error = np.sqrt(np.mean((y_original - y_approx)**2) / np.sum(y_original**2))
+
+print("%RRMSE: ", error * 100)
+
 plt.figure(figsize = (5 * cm, 4 * cm))
 plt.plot(t, y_original, label = 'Input Signal', linewidth = 1)
 plt.plot(t, y_approx, label = 'Approximation', linewidth = 1)
