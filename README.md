@@ -22,5 +22,10 @@ The code has been tested on Python 3.10.8. For the experiments of Section V.B th
 
 # Reference
 ```
-TODO
+@article{kechris2024dc,
+  title={DC is all you need: describing ReLU from a signal processing standpoint},
+  author={Kechris, Christodoulos and Dan, Jonathan and Miranda, Jose and Atienza, David},
+  journal={arXiv preprint arXiv:2407.16556},
+  year={2024}
+}
 ```
